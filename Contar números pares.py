@@ -1,4 +1,4 @@
-numeros = [3, 7, 2, 9, 4, 8]
+numeros = [4, 6, 8, 12, 20]
 total = 0
 
 for n in numeros:
@@ -6,3 +6,4 @@ for n in numeros:
         total += 1
 
 print("Quantidade de números pares:", total)
+
