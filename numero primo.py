@@ -4,7 +4,7 @@ primo = True
 if numero <= 1:
     primo = False
 else:
-    for int in range(2, numero):
+    for i in range(2, numero):
         if numero % int == 0:
             primo = False
             break
