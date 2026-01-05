@@ -1,4 +1,5 @@
-def saudação(nome):
-    return ('olá!",nome')
+def saudacao(nome):
+    return "Olá, {}!".format(nome)
 
-print(saudação("Daniel"))
+print(saudacao("Daniel"))
+
